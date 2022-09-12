@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+}
+
+img {
+    width: 100px;
+    height: 170px;
+}
+
+.container {
+    background: white;
+    border: solid;
+    padding: 10px;
+}
+

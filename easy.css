@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+tr td {
+    background-color: #fff;
+    width:200px;
+    height:17px;
+    border: solid;
+}
+tr:nth-child(even) td:nth-child(odd), tr:nth-child(odd) td:nth-child(even) {
+    background-color: #ff0000;
+}
+
+img{
+    height: 215px;
+    grid-column-start: 2;
+    margin-right: 0;
+}

@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+tr td{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+}
+
+tr:nth-child(even) td:nth-child(odd), tr:nth-child(odd) td:nth-child(even) {
+    background-color: white;
+}
